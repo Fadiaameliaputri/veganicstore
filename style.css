@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap');
+
+:root {
+--mainfont:'Poppins', sans-serif;
+}
+
+body { 
+    padding: 0;
+    margin: 0;
+    background-color: #ECEFEB;
+}
+
+.navbar-brand img {
+    width: 170px;
+}
+
+a.nav-link { 
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* KONTEN PERTAMA */
+
+#home, #veganic { 
+    background-image: url(img/background-home.jpg);
+}
+
+.jeruk {
+    width: 80%;
+}
+
+.judul-home h1 {
+    font-family: var(--mainfont);
+    letter-spacing: 10px;
+}
+
+.judul-desc {
+    font-size: 19px;
+    font: 400;
+    letter-spacing: 10px;
+}
+
+.btn-shop {
+    color: white;
+    background-color: #608B55;
+    padding: 15px 45px;
+    border: #608B55;
+    border-radius: 20px;
+}
+
+/* KONTEN KEDUA */
+
+.fruit {
+    background-color: #FF89B4;
+}
+
+.vegetable {
+    background-color: #4ABB55;
+}
+
+.wheat {
+    background-color: #CC9595;
+}
+
+.list-text {
+    font-size: 2.5rem;
+    font-family: var(--mainfont);
+}
+
+.kol,.stroberi,.gandum {
+    width: 100%;
+}
+
+.fruit,.vegetable,.wheat > p {
+    font-size: 20px;
+}
+
+.kategori-title::before,
+.kategori-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid black;
+    width: 15%;
+    margin: 0 4rem;
+    transform: translateY(-1rem);
+}
+
+.border-fruit {
+    border-radius: 25px;
+    box-shadow: 0px 176px 70px rgba(34, 42, 32, 0.01), 0px 99px 59px rgba(34, 42, 32, 0.05), 0px 44px 44px rgba(34, 42, 32, 0.09), 0px 11px 24px rgba(34, 42, 32, 0.1), 0px 0px 0px rgba(34, 42, 32, 0.1);
+}
+
+.buah {
+    width: 100%;
+}
+
+.sayur {
+    width: 100%;
+}
+
+.gandum {
+    width: 95%;
+}
+
+.tomat-div, .alpukat-div, .nanas-div {
+    width: 30%;
+    transform: scale(0.9);
+}
+
+.special-div{
+    width: 22%;
+}
+
+.btn-more {
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Quattrocento', serif;
+}
+
+span.arrow {
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.why-text {
+    font-size: 2.5rem;
+    margin-left: 3rem;
+}
+
+.veganic-text {
+    font-size: 4rem;
+}
+
+#footer h5 {
+    width: 85%;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.information {
+    border: 1px solid black;
+}
+
+
+@media (max-width: 1366px) {
+    .alpukat, .tomat, .nanas {
+        width: 100%;
+    }
+
+    .footer-info {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 1199.98px) {
+
+    .list-text {
+        font-size: 2rem;
+        font-family: var(--mainfont);
+    }
+
+    h1.sale-text {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .border-fruit {
+        width: 30%;
+    }
+
+    .special-div {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    #special h4 {
+        font-size: 25px;
+    }
+
+    .alpukat-bg {
+        width: 100%;
+    }
+
+    #veganic h4 {
+        font-size: 20px;
+    }
+
+    #veganic h5 {
+        font-size: 16px;
+    }
+
+    .wallet svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .gift svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quality svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .support svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .veganic-text {
+        font-size: 3rem;
+    }
+
+    .why-text {
+        font-size: 2rem;
+    }
+
+    
+    .information {
+        border: none;
+    }
+
+    .footer-info {
+        transform: scale(1);
+        margin-top: 1rem;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .border-fruit {
+        width: 30%;
+    }
+
+    .kol-div {
+        order: -1;
+    }
+
+    .kol,.stroberi,.gandum {
+        width: 80%;
+    }
+
+    .fruit, .vegetable, .wheat {
+        width: 100%;
+    }
+
+    .fruit,.vegetable,.wheat > p {
+        font-size: 1.5rem;
+    }
+
+    .vegetable .list-text {
+        margin-left: -2.5rem;
+    }
+
+    .kol {
+        margin-left: 1.5rem;
+    }
+    
+    .kategori-title::before,
+    .kategori-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid black;
+    width: 15%;
+    margin: 0 1rem;
+    transform: translateY(-0.5rem);
+    }
+
+    .buah {
+        width: 100%;
+    }
+    
+    .sayur {
+        width: 100%;
+    }
+    
+    .gandum {
+        width: 95%;
+    } 
+
+    img.stroberi, img.kol, img.gandum {
+        width: 70%;
+    }
+
+    .special-div{
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+
+    .alpukat-bg {
+        width: 105%;
+    }
+
+    .why-text {
+        font-size: 1.5rem;
+    }
+
+    .veganic-text {
+        font-size: 2rem;
+    }
+
+    .wallet svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .gift svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .quality svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    .support svg  {
+        width: 60px;
+        height: 60px;
+    }
+
+    #veganic h4 {
+        font-size: 20px;
+    }
+
+
+    .footer-info {
+        transform: scale(1);
+    }
+   
+}
+
+@media (max-width: 767.98px) {
+    .desc-home {
+        order: -1;
+    }
+
+    .stroberi {
+        margin-left: 20px;
+    }
+
+    .kol {
+        margin-left: -3px;
+    }
+
+    .kategori-title {
+        font-size: 20px;
+    }
+
+    .kategori-title::before,
+    .kategori-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid black;
+    width: 15%;
+    margin: 0 0.4rem;
+    transform: translateY(-0.5rem);
+    }
+
+    .border-fruit {
+    width: 60%;
+    margin-bottom: 2rem;
+    }
+
+    .tomat-div, .alpukat-div, .nanas-div {
+        width: 90%;
+        margin: auto;
+       }
+
+       img.stroberi, img.kol, img.gandum {
+        width: 90%;
+    }
+
+    .special-div{
+        margin-bottom: 10px;
+        width: 90%;
+        transform: scale(0.9);
+    }
+
+    .alpukat-bg {
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    #sign h5 {
+        font-size: 18px;
+    }
+    #sign h4 {
+        font-size: 18px;
+    }
+
+    .mail {
+        margin: 15px 0;
+    }
+
+    .btn-subs {
+        font-size: 16px;
+    }
+
+    .all-footer {
+        transform: scale(0.85);
+        margin-left: -30px;
+        margin-top: -1rem;
+    }
+  
+}
+
+@media (max-width: 575.98px) {
+
+    .nanas {
+        width: 100%;
+    }
+    
+    .sayur {
+        width: 100%;
+    }
+    
+    .gandum {
+        width: 95%;
+    }
+
+    .fruit,.vegetable,.wheat > p {
+        font-size: 16px;
+    }
+
+   .judul-home h1 {
+    font-size: 24px;
+    letter-spacing: 8px;
+   } 
+
+   .judul-desc {
+    font-size: 20px;
+    letter-spacing: normal;
+   }
+
+   .line {
+    width: 50px;
+   }
+
+   #special h4 {
+    font-size: 22px;
+   }
+
+   .btn-more {
+    font-size: 1em;
+   }
+
+
+}
+
+@media (max-width: 370px) {
+    .all-footer {
+        transform: scale(0.8);
+        margin-left: -40px;
+        margin-top: -2rem;
+    }
+}
+
+@media (max-width: 325px) {
+    .kategori-title::before,
+    .kategori-title::after {
+    display: inline-block;
+    content: "";
+    border-top: 3px solid black;
+    width: 13%;
+    margin: 0 0rem;
+    transform: translateY(-0.5rem);
+    }
+
+    .border-fruit {
+        margin-bottom: 10px;
+        width: 90%;
+        transform: scale(0.9);
+    }
+
+    .wallet svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    #veganic h4 {
+        font-size: 16px;
+    }
+
+    #veganic h5 {
+        font-size: 16px;
+    }
+
+    .alpukat-bg {
+        width: 90%;
+    }
+
+    .btn-more {
+        font-size: 16px;
+        padding: 5px 8px;
+        transform: scale(0.9);
+    }
+
+    #sign h5 {
+        font-size: 14px;
+    }
+    #sign h4 {
+        font-size: 16px;
+    }
+
+    .mail {
+        margin: 15px 0;
+    }
+
+    .btn-subs {
+        font-size: 14px;
+    }
+
+    .wallet svg  {
+        width: 45px;
+        height: 45px;
+    }
+
+    .gift svg  {
+        width: 45px;
+        height: 45px;
+    }
+
+    .quality svg  {
+        width: 45px;
+        height: 45px;
+    }
+
+    .support svg  {
+        width: 45px;
+        height: 45px;
+    }
+
+    .leaf-icon {
+        width: 300px;
+    }
+
+    .ig-icon, .pinterest-icon, .fb-icon, .twitter-icon {
+        width: 50px;
+    }
+
+}
